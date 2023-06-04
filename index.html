@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complex UI</title>
+    <link rel="stylesheet" href="./index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="navbar-left">
+                <strong><a href="#">Complex UI</a></strong>
+                <span><a href="#">Section 1</a></span>
+                <span><a href="#">Section 2</a></span>
+                <span><a href="#">Section 3</a></span>
+            </div>
+                <nav class="navbar bg-body-tertiary">
+                    <div class="container-fluid">
+                      <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                      </form>
+                    </div>
+                </nav>
+                <label id="icon">
+                  <button>
+                    <i class="fa-solid fa-bars"></i>
+                  </button>
+                </label>   
+          </div>
+    </header>
+
+    <main>
+        <section class="carousel">
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="https://carwow-uk-wp-3.imgix.net/18015-MC20BluInfinito-scaled-e1666008987698.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>First Slide Title</h5>
+                      <p>First slide description</p>
+                      <button type="button" class="btn btn-primary">Call to Action</button>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://static.writearn.in/1682146385413_coolest-cars-feature_jpg.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Second Slide Title</h5>
+                      <p>Second slide description</p>
+                      <button type="button" class="btn btn-primary">Call to Action</button>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://imageio.forbes.com/specials-images/imageserve/5f962df3991e5636a2f68758/0x0.jpg?format=jpg&crop=812,457,x89,y103,safe&width=1200" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Third Slide Title</h5>
+                      <p>Third slide description</p>
+                      <button type="button" class="btn btn-primary">Call to Action</button>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+        <section class="gallery-1">
+            <figure class="figure">
+                <img src="https://sportscardigest.com/wp-content/uploads/2021/05/MaseratiQuattroporteTrofeo-3-300x200.jpg" class="figure-img img-fluid rounded" alt="...">
+                <p class="text-center">Short description</p>
+              </figure>
+              <figure class="figure">
+                <img src="https://media.zigcdn.com/media/model/2023/Jan/front-1-4-left-336740161_300x200.jpg" class="figure-img img-fluid rounded" alt="...">
+                <p class="text-center">Short description</p>
+              </figure>
+              <figure class="figure">
+                <img src="https://img.freepik.com/free-photo/luxury-car-speeds-by-modern-building-dusk-generative-ai_188544-8048.jpg?q=10&h=200" class="figure-img img-fluid rounded" alt="...">
+                <p class="text-center">Short description</p>
+              </figure>
+        </section>
+        <section class="photo-gallery">
+            <div class="grid-container">
+                <div class="grid-item-1"><img src="https://media.zigcdn.com/media/model/2023/May/front-1-4-left-1804012342_300x200.jpg" alt="img"></div>
+                <div class="grid-item-2"><img src="https://stat.overdrive.in/wp-content/uploads/2023/01/picture12-300x200.jpg" alt="imgimg"></div>
+                <div class="grid-item-3"><img src="https://www.cardomain.com.au/wp-content/uploads/2019/05/Top-10-Most-Reliable-European-Cars-300x200.jpg" alt="img"></div>
+                <div class="grid-item-4"><img src="https://images10.gaadi.com/usedcar_image/3464690/original/usedcar_dsc06378_01_copy_62791685706225_1685706243_d0589f9d-a30a-40ef-a839-2f6a3d8db65c.jpeg?imwidth=640" alt="img"></div>
+                <div class="grid-item-5"><img src="https://images.livemint.com/rf/Image-621x414/LiveMint/Period1/2012/08/06/Photos/8a7116a1-a935-4c45-bfea-7ddbe37a7ed9.jpg" alt="img"></div>
+                <div class="grid-item-6"><img src="https://sportscardigest.com/wp-content/uploads/2021/05/MaseratiQuattroporteTrofeo-3-300x200.jpg" alt="img"></div>
+                <div class="grid-item-7"><img src="https://www.fugocars.com/upload5/uploads/midk/csfk1537.jpg" alt="img"></div>
+                <div class="grid-item-8"><img src="https://autohexa.com/wp-content/uploads/2023/04/jdm-cars-300x200.jpg" alt="img"></div>
+                <div class="grid-item-9"><img src="https://media.zigcdn.com/media/model/2023/Jan/front-1-4-left-336740161_300x200.jpg" alt="img"></div>
+            </div>
+        </section>
+        <section class="cards">
+            <div class="card" style="width: 1fr;">
+                <img src="https://autohexa.com/wp-content/uploads/2023/04/jdm-cars-300x200.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card Title</h5>
+                  <p class="card-text">Card Description</p>
+                  <a href="#" class="btn btn-primary">Call to Action</a>
+                </div>
+              </div>
+              <div class="card" style="width: 1fr;">
+                <img src="https://www.pixel4k.com/wp-content/uploads/2019/01/mercedes-amg-gt-r-2018-4k_1546362411-300x200.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card Title</h5>
+                  <p class="card-text">Card Description</p>
+                  <a href="#" class="btn btn-primary">Call to Action</a>
+                </div>
+              </div>
+              <div class="card" style="width: 1fr;">
+                <img src="https://electricvehicles.in/wp-content/uploads/2018/06/Opel-Ampera-E-Price-and-Review-500-Km-Range-Car-300x200.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card Title</h5>
+                  <p class="card-text">Card Description</p>
+                  <a href="#" class="btn btn-primary">Call to Action</a>
+                </div>
+              </div>
+        </section>
+    </main>
+
+    <footer>
+    <div class="columns">
+        <div class="col-1">
+            <h6>Useful Links</h6>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+        </div>
+        <div class="col-2">
+            <h6>More Links</h6>
+            <a href="">Link 4</a>
+            <a href="">Link 5</a>
+            <a href="">Link 6</a>
+        </div>
+        <div class="col-3">
+            <h6>Contact Us</h6>
+            <span>Email: example@example.com</span>
+            <span>Phone: +1 (555) 123-4567</span>
+        </div>
+    </div>
+        <div class="copyright">
+            <p>© 2023 Complex UI. All Rights Reserved.</p>
+            <button type="button" class="btn btn-primary">Back to Top</button>
+        </div>
+    </footer>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
